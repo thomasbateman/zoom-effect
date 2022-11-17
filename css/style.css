@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.card {
+  position: relative;
+  width: 450px;
+  height: 650px;
+  background-color: rgb(210, 210, 210);
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 500px;
+  height: 100%;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.card-img:hover {
+  transform: scale(2);
+}
